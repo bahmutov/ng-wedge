@@ -7,7 +7,31 @@
     <script src="node_modules/lazy-ass/index.js"></script>
     <script src="ng-wedge.js"></script>
   </head>
-  <body>
+  <body ng-app="App" ng-controller="AppController">
     <h1>ng-wedge</h1>
+    <button id="load" ng-click="load()">Load using Ajax request</button>
+    <p>load result {{ loadResult }}</p>
+    <button id="installWedge">Install ng-wedge</button>
+    <script>
+      angular.module('App', [])
+        .controller('AppController', function ($scope, $http) {
+          $scope.load = function load() {
+            $http.get('/some/url').then(function (data) {
+              console.log('$http get /some/url returned', data);
+              $scope.loadResult = data;
+            }, function () {
+              console.error('Could not get /some/url');
+            });
+          };
+        });
+    </script>
+
+    <script>
+      document.querySelector('#installWedge').addEventListener('click', function () {
+        console.log('installing ng wedge');
+        var mockHttp = wedge('#load', 'load');
+        mockHttp('get', '/some/url', 200, 'I got mock data back after 2 seconds', 2000);
+      });
+    </script>
   </body>
 </html>

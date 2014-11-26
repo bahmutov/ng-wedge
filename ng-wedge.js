@@ -7,9 +7,6 @@
   }
 
   root.wedge = function wedge(selector, scopeMethodName) {
-    // var selector = 'button';
-    // var scopeMethodName = 'load';
-
     var el = angular.element(document.querySelector(selector));
     var scope = el.scope() || el.isolateScope();
     var originalMethod = scope[scopeMethodName];
@@ -28,9 +25,6 @@
     var $timeout = injector.get('$timeout');
     var _$http = injector.get('$http');
     var $q = injector.get('$q');
-    // for now
-    var API = injector.get('API');
-    var alertify = injector.get('Alertify');
 
     var mockMethods = {
       get: {},
