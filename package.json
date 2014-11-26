@@ -55,6 +55,6 @@
     "url": "git@github.com:bahmutov/ng-wedge.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt"
   }
 }
