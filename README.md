@@ -8,6 +8,12 @@
 [![dependencies][ng-wedge-dependencies-image] ][ng-wedge-dependencies-url]
 [![devdependencies][ng-wedge-devdependencies-image] ][ng-wedge-devdependencies-url]
 
+## Related
+
+* [Local Angular development][local ng]
+* [Fake lexical scope][fake]
+* [Test function purity][test purity]
+
 ### Small print
 
 Author: Gleb Bahmutov &copy; 2014
@@ -56,3 +62,6 @@ OTHER DEALINGS IN THE SOFTWARE.
 [ng-wedge-dependencies-url]: https://david-dm.org/bahmutov/ng-wedge
 [ng-wedge-devdependencies-image]: https://david-dm.org/bahmutov/ng-wedge/dev-status.png
 [ng-wedge-devdependencies-url]: https://david-dm.org/bahmutov/ng-wedge#info=devDependencies
+[fake]: http://bahmutov.calepin.co/faking-lexical-scope.html
+[test purity]: http://bahmutov.calepin.co/test-if-a-function-is-pure.html
+[local ng]: http://bahmutov.calepin.co/local-angular-development.html
