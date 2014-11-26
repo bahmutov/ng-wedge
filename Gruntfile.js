@@ -14,11 +14,12 @@ module.exports = function (grunt) {
     },
 
     jshint: {
-      'options': {
-        jshintrc: '.jshintrc'
+      options: {
+        jshintrc: '.jshintrc',
+        reporter: require('jshint-summary')
       },
       default: {
-        'src': [ '*.js', 'test/*.js' ]
+        src: ['*.js', 'test/*.js'],
       }
     },
 
