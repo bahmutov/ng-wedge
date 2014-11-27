@@ -20,8 +20,9 @@ mock data or even slow down the responses by any amount.
 
 ## example
 
-You can try this example yourself by opening `index.html`. The main page
-has simple controller making request to non-existent endpoint */some/url*.
+You can try this example yourself by opening `index.html` locally or by trying this example
+at gh-pages branch [http://glebbahmutov.com/ng-wedge/](http://glebbahmutov.com/ng-wedge/). 
+The main page has simple controller making request to non-existent endpoint */some/url*.
 
 ```js
 // controller around button <button id="load" ng-click="load()">Load</button>
@@ -53,6 +54,12 @@ mockHttp('get', '/some/url', 200, 'I got mock data back after 2 seconds', 2000);
 
 Click the button now, and after two seconds, the scope successfully receives
 mock data string.
+
+## Install
+
+This utility is available through NPM or bower under name `ng-wedge`. Add it as a code snippet
+and use on any live angular app. Also can be loaded as additional script by PhantomJS or CasperJS
+for end to end testing.
 
 ## Related
 
