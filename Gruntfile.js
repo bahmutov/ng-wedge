@@ -23,6 +23,19 @@ module.exports = function (grunt) {
       }
     },
 
+    'gh-pages': {
+      options: {
+        base: '.'
+      },
+      src: [
+        'index.html',
+        'README.md',
+        'node_modules/angular/angular.js',
+        'node_modules/lazy-ass/index.js',
+        'ng-wedge.js'
+      ]
+    },
+
     sync: {
       all: {
         options: {
