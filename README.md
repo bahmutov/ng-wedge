@@ -55,6 +55,12 @@ mockHttp('get', '/some/url', 200, 'I got mock data back after 2 seconds', 2000);
 Click the button now, and after two seconds, the scope successfully receives
 mock data string.
 
+## Install
+
+This utility is available through NPM or bower under name `ng-wedge`. Add it as a code snippet
+and use on any live angular app. Also can be loaded as additional script by PhantomJS or CasperJS
+for end to end testing.
+
 ## Related
 
 * [Local Angular development][local ng]
