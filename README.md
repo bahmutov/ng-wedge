@@ -20,8 +20,9 @@ mock data or even slow down the responses by any amount.
 
 ## example
 
-You can try this example yourself by opening `index.html`. The main page
-has simple controller making request to non-existent endpoint */some/url*.
+You can try this example yourself by opening `index.html` locally or by trying this example
+at gh-pages branch [http://glebbahmutov.com/ng-wedge/](http://glebbahmutov.com/ng-wedge/). 
+The main page has simple controller making request to non-existent endpoint */some/url*.
 
 ```js
 // controller around button <button id="load" ng-click="load()">Load</button>
