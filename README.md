@@ -63,6 +63,7 @@ for end to end testing.
 
 ## Related
 
+* [Drive wedge into into your Angular app][drive wedge]
 * [Local Angular development][local ng]
 * [Fake lexical scope][fake]
 * [Test function purity][test purity]
@@ -119,3 +120,4 @@ OTHER DEALINGS IN THE SOFTWARE.
 [test purity]: http://bahmutov.calepin.co/test-if-a-function-is-pure.html
 [local ng]: http://bahmutov.calepin.co/local-angular-development.html
 [snippet]: http://bahmutov.calepin.co/chrome-devtools-code-snippets.html
+[drive wedge]: http://bahmutov.calepin.co/drive-wedge-into-your-angular-application.html
