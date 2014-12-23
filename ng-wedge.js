@@ -74,6 +74,7 @@
       // TODO retry the function if there is reference error and load variable from injector
       // TODO or we could try parsing the scope / invoke queue to see which variables are injected
       // see http://bahmutov.calepin.co/building-runtime-tree-of-angular-modules.html
+      console.log('calling original method');
       originalMethodString();
     };
     scope[scopeMethodName].__wedged = true;

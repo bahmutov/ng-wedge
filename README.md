@@ -63,6 +63,7 @@ for end to end testing.
 
 ## Related
 
+* [Robustness testing using proxies][http://bahmutov.calepin.co/robustness-testing-using-proxies.html]
 * [Drive wedge into into your Angular app][drive wedge]
 * [Local Angular development][local ng]
 * [Fake lexical scope][fake]
