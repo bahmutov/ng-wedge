@@ -52,7 +52,10 @@
   ],
   "license": "MIT",
   "main": "ng-wedge.js",
-  "pre-commit": ["grunt", "npm version"],
+  "pre-commit": [
+    "grunt",
+    "npm version"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:bahmutov/ng-wedge.git"
