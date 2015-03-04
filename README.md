@@ -63,7 +63,7 @@ for end to end testing.
 
 ## Related
 
-* [Robustness testing using proxies](http://bahmutov.calepin.co/robustness-testing-using-proxies.html)
+* [Robustness testing using proxies](http://glebbahmutov.com/blog/robustness-testing-using-proxies/)
 * [Drive wedge into into your Angular app][drive wedge]
 * [Local Angular development][local ng]
 * [Fake lexical scope][fake]
@@ -117,8 +117,8 @@ OTHER DEALINGS IN THE SOFTWARE.
 [ng-wedge-dependencies-url]: https://david-dm.org/bahmutov/ng-wedge
 [ng-wedge-devdependencies-image]: https://david-dm.org/bahmutov/ng-wedge/dev-status.png
 [ng-wedge-devdependencies-url]: https://david-dm.org/bahmutov/ng-wedge#info=devDependencies
-[fake]: http://bahmutov.calepin.co/faking-lexical-scope.html
-[test purity]: http://bahmutov.calepin.co/test-if-a-function-is-pure.html
-[local ng]: http://bahmutov.calepin.co/local-angular-development.html
-[snippet]: http://bahmutov.calepin.co/chrome-devtools-code-snippets.html
-[drive wedge]: http://bahmutov.calepin.co/drive-wedge-into-your-angular-application.html
+[fake]: http://glebbahmutov.com/blog/faking-lexical-scope/
+[test purity]: http://glebbahmutov.com/blog/test-if-a-function-is-pure/
+[local ng]: http://glebbahmutov.com/blog/local-angular-development/
+[snippet]: http://glebbahmutov.com/blog/chrome-dev-tools-code-snippets/
+[drive wedge]: http://glebbahmutov.com/blog/drive-wedge-into-your-angular-app/
